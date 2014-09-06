@@ -8,27 +8,56 @@ and open the template in the editor.
     Author     : Student
 */
 .bcolor{
-    background-image: url('images/b1.jpg');
+    background-image: url('coolsun.jpg'); background-repeat: no-repeat ,center, center, fixed;
+    background-size: 100%;
+    
 }
 #noah{
-    color: white;
+    color: black;
     margin: 100px 300px 0px 300px;
     height: 55px;
     font-size: 55px;
 }
 #mostacero{
-    color: white;
+    color: black;
     margin: 0px 300px 0px 300px;
     height: 55px;
     font-size: 55px;
 }
 #bigdivbox{
-    background-color: rgba(0,0,0,.8);
-    color: green;
     height: 500px;
 }
 #line{
-    background-color: white;
+    background-color: black;
     height: 3px;
     margin: 10px 400px 0px 400px;
+}
+.button1{
+  display: block;
+  width: 115px;
+  height: 25px;
+  background-color: black;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  margin: 0px 0px 0px 570px;
+  display: inline;
+}
+.button2{
+  display: block;
+  width: 115px;
+  height: 25px;
+  background-color: black;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  margin: 0px 570px 0px 0px;
+  display: inline;
+}
+#linkdiv{
+ 
 }
