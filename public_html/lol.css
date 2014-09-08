@@ -7,27 +7,38 @@ and open the template in the editor.
     Created on : Aug 29, 2014, 10:34:58 AM
     Author     : Student
 */
+/* this is all indexx */
 .bcolor{
     background-image: url('coolsun.jpg'); background-repeat: no-repeat ,center, center, fixed;
     background-size: 100%;
     
 }
 #noah{
-    color: black;
+    color: rgba(251, 17, 0, 0.8);
     margin: 100px 300px 0px 300px;
     height: 55px;
     font-size: 55px;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
 }
 #mostacero{
-    color: black;
+    color: rgba(251, 17, 0, 0.8);
     margin: 0px 300px 0px 300px;
     height: 55px;
     font-size: 55px;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
 }
-#bigdivbox{
+.bigdivbox{
     height: 500px;
 }
-#line{
+.line{
     background-color: black;
     height: 3px;
     margin: 10px 400px 0px 400px;
@@ -58,6 +69,21 @@ and open the template in the editor.
   margin: 0px 570px 0px 0px;
   display: inline;
 }
-#linkdiv{
- 
+#adriansquote{
+    color: rgba(251, 17, 0, 0.8);
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
+}
+/* index ends */
+
+.blackdiv{
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 450px;
+    margin: 100px;
+}
+#aboutme{
+    
 }
