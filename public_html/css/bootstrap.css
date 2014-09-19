@@ -26,6 +26,7 @@ nav,
 section,
 summary {
   display: block;
+  text-align: center;
 }
 audio,
 canvas,
@@ -881,7 +882,9 @@ th {
 * {
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
-          box-sizing: border-box;
+          
+  box-sizing: border-box;
+  text-align: center;
 }
 *:before,
 *:after {
