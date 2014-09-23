@@ -93,6 +93,18 @@ li{
     -1px 1px 0 #000,
     1px 1px 0 #000;  
 }
+div{
+    border-style: solid;
+    border-width: 5px;
+    padding: 30px;
+    border-color: green;
+}
+.container{
+    border-color: blue;
+}
+.row{
+    border-color: red;
+}
 /* index ends */
 /* aboutme starts */
 .blackdiv{
@@ -233,20 +245,18 @@ li{
     .bigdivbox{
         width: 100%;
     }
+    
 }
 
 @media (max-width: 320px) {
     body{
         font-size: 20px;
     }
-    .bigdivbox{
-        width: 100%;
-    }
     #noah{
-        width: 20%;
+        font-size: 20px;
     }
     #mostacero{
-        width: 20%;
+        font-size: 20px;
     }
     #adriansquote{
         font-size: 20px;
