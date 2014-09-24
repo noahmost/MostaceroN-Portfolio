@@ -9,19 +9,22 @@ and open the template in the editor.
 */
 /* this is all indexx */
 .bcolor{
-    background-image: url('coolsun.jpg'); background-repeat: no-repeat ,center, center, fixed;
+    background-image: url('fresh_snow.png');
+}
+.rowpicture{
+    background-image: url('coolsun.jpg'); background-repeat: no-repeat;
     background-size: 100%;
 }
 #noah{
     color: rgba(251, 17, 0, 0.8);
-    margin: 100px 300px 0px 300px;
-    height: 55px;
-    font-size: 55px;
+    margin: 0px 0px 0px 0px;
+    font-size: 45px;
     text-shadow:
     -1px -1px 0 #000,
     1px -1px 0 #000,
     -1px 1px 0 #000,
-    1px 1px 0 #000;  
+    1px 1px 0 #000;
+    font-family: 'Fjalla One', sans-serif;
 }
 #mostacero{
     color: rgba(251, 17, 0, 0.8);
@@ -58,6 +61,8 @@ li{
   font-weight: bold;
   margin: 0px 0px 0px 0px;
   display: inline;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 25px;
 }
 #button2{
   display: block;
@@ -69,8 +74,10 @@ li{
   border-radius: 5px;
   color: white;
   font-weight: bold;
-  margin: 0px 0px 0px 0px;
+  margin: 0px 50px 0px 50px;
   display: inline;
+  font-size: 25px;
+  font-family: 'Fjalla One', sans-serif;
 }
 #button3{
   display: block;
@@ -84,6 +91,8 @@ li{
   font-weight: bold;
   margin: 0px 0px 0px 0px;
   display: inline;
+  font-size: 25px;
+  font-family: 'Fjalla One', sans-serif;
 }
 #adriansquote{
     color: rgba(251, 17, 0, 0.8);
@@ -93,6 +102,10 @@ li{
     -1px 1px 0 #000,
     1px 1px 0 #000;  
 }
+div{
+    padding: 30px;
+}
+/*
 div{
     border-style: solid;
     border-width: 5px;
