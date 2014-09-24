@@ -136,6 +136,15 @@ div{
 .row{
     border-color: red;
 }
+img {
+    opacity: 0.8;
+    filter: alpha(opacity=40); /* For IE8 and earlier */
+}
+
+img:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+}
 /* index ends */
 /* aboutme starts */
 .blackdiv{
