@@ -9,6 +9,9 @@ and open the template in the editor.
 */
 /* this is all indexx */
 .bcolor{
+    background-image: url('zwartevilt.png');
+}
+.rowcolor{
     background-image: url('fresh_snow.png');
 }
 .rowpicture{
@@ -18,7 +21,7 @@ and open the template in the editor.
 #noah{
     color: rgba(251, 17, 0, 0.8);
     margin: 0px 0px 0px 0px;
-    font-size: 45px;
+    font-size: 55px;
     text-shadow:
     -1px -1px 0 #000,
     1px -1px 0 #000,
@@ -41,9 +44,9 @@ and open the template in the editor.
     height: 500px;
 }
 .line{
-    background-color: black;
+    background-color: blue;
     height: 3px;
-    margin: 10px 400px 0px 400px;
+    margin: 0px 0px 0px 0px;
 }
 li{
     text-align: center;
@@ -102,6 +105,18 @@ li{
     -1px 1px 0 #000,
     1px 1px 0 #000;  
 }
+.quotething{
+    color: rgba(251, 17, 0, 0.8);
+    margin: 0px 0px 0px 0px;
+    font-size: 25px;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+    font-family: 'Fjalla One', sans-serif;
+}
+
 div{
     padding: 30px;
 }
@@ -109,7 +124,7 @@ div{
 div{
     border-style: solid;
     border-width: 5px;
-    padding: 30px;
+    padding: 20px;
     border-color: green;
 }
 .container{
