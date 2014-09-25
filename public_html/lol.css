@@ -8,7 +8,7 @@ and open the template in the editor.
     Author     : Student
 */
 /* this is all indexx */
-body{
+.bodyblack{
     background-image: url('zwartevilt.png')
 }
 .bcolor{
@@ -136,6 +136,7 @@ div{
 .row{
     border-color: red;
 }
+
 img {
     opacity: 0.8;
     filter: alpha(opacity=40); /* For IE8 and earlier */
