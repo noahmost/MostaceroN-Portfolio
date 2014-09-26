@@ -15,7 +15,7 @@ and open the template in the editor.
     background-image: url('zwartevilt.png');
 }
 .rowcolor{
-    background-image: url('fresh_snow.png');
+    background-image: url('zwartevilt.png');
 }
 .rowpicture{
     background-image: url('coolsun.jpg'); background-repeat: no-repeat;
@@ -92,11 +92,11 @@ li{
     1px 1px 0 #000;
     font-family: 'Fjalla One', sans-serif;
 }
-
+/*
 div{
     padding: 30px;
 }
-/*
+*/
 div{
     border-style: solid;
     border-width: 5px;
@@ -109,7 +109,7 @@ div{
 .row{
     border-color: red;
 }
-*/
+
 .imgindex {
     opacity: 0.8;
     filter: alpha(opacity=40); /* For IE8 and earlier */
@@ -186,60 +186,27 @@ div{
 /* aboutme ends */
 /* hobbies start */
 #hobbiesfont{
-    font-size: 45px;
-    color: white;
+    color: rgba(251, 17, 0, 0.8);
+    margin: 0px 0px 0px 0px;
+    font-size: 55px;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+    font-family: 'Fjalla One', sans-serif;
 }
-#bcolor3{
-    background-image: url('ashe.jpg');
-    background-repeat: no-repeat ,center, center, fixed;
+.fontcolor3{
+    color: white;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
+}
+.rowpictureashe{
+    background-image: url('ashe.jpg'); background-repeat: no-repeat;
     background-size: 100%;
-}
-#line3{
-    background-color: black;
-    height: 3px;
-    margin: 10px 300px 0px 300px;
-}
-#fontcolor3{
-    color: white;
-}
-#button1c{
-  display: block;
-  width: 115px;
-  height: 25px;
-  background-color: black;
-  padding: 10px;
-  text-align: center;
-  border-radius: 5px;
-  color: white;
-  font-weight: bold;
-  margin: 0px 0px 0px 0px;
-  display: inline;
-}
-#button1d{
-  display: block;
-  width: 115px;
-  height: 25px;
-  background-color: black;
-  padding: 10px;
-  text-align: center;
-  border-radius: 5px;
-  color: white;
-  font-weight: bold;
-  margin: 0px 0px 0px 0px;
-  display: inline;
-}
-#button3c{
-    display: block;
-  width: 115px;
-  height: 25px;
-  background-color: black;
-  padding: 10px;
-  text-align: center;
-  border-radius: 5px;
-  color: white;
-  font-weight: bold;
-  margin: 0px 0px 0px 0px;
-  display: inline;
 }
 /* hobbies end */
 @media screen and (max-width: 1024px) {
